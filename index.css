@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 1.2vh;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: cornsilk;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+p {
+    text-align: justify;
+    color: cornsilk;
+    font-size: 12px;
+}
+
+body {
+    background: linear-gradient(to right, #53c7db, #1de2b1);
+    min-height: 100vh;
+    min-width: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*----------------------------------------------------------*/
+
+main.Comentario-Um {
+    margin: 5vh;
+    background-color: cornsilk;
+    max-width: 380px;
+    min-height: 40vh;
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 7px 7px 18px crimson;
+}
+
+main.Comentario-Um:hover {
+    letter-spacing: 0.3px;
+    background: linear-gradient(to left, #4a00e0, #8e2de2);
+    transition: all 0.5s ease-in;
+}
+
+/*---------------------------------------------------------*/
+
+main.Comentario-Dois {
+    
+    margin: 5vh;
+    background-color: cornsilk;
+    max-width: 380px;
+    min-height: 40vh;
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 7px 7px 18px crimson;
+}
+
+main.Comentario-Dois:hover {
+    letter-spacing: 0.3px;
+    background: linear-gradient(to left, #4a00e0, #8e2de2);
+    transition: all 0.8s ease-in;
+}
+
+/*----------------------------------------------------------*/
+
+main.Comentario-Tres {
+    
+    margin: 5vh;
+    background-color: cornsilk;
+    max-width: 380px;
+    min-height: 40vh;
+    padding: 3rem;
+    border-radius: 30px;
+    box-shadow: 7px 7px 18px crimson;
+}
+
+main.Comentario-Tres:hover {
+    letter-spacing: 0.3px;
+    background: linear-gradient(to left, #4a00e0, #8e2de2);
+    transition: all 0.8s ease-in;
+}
+
+/*----------------------------------------------------------*/
+
+main.boxx {
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    max-width: 370px;
+    min-height: 15vh;
+    padding: 1rem;
+    border-radius: 18px;
+    box-shadow: 3px 3px 12px #dc143c;
+
+}
+
+main.boxx:hover {
+
+    background: linear-gradient(to left, #4a00e0, #8e2de2);
+    /*transition: all 0.5s ease-in-out;*/
+}
